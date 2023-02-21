@@ -6,7 +6,7 @@ def main():
     
     args, unknown = parser.parse_known_args()
 
-    print("Args parse ", parser.parse_known_args)
+    print("Args parse ", args.source)
 
 if __name__ == '__main__':
     print("Inside Test1")
